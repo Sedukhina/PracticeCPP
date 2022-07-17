@@ -9,6 +9,8 @@
 #include <vector>
 #include <array>
 
+#include"GapInPrimes.cpp"	//Includes func that returns the first pair of two prime numbers spaced with a gap of g between the limits m, n. And isPrime check.
+
 using namespace std;
 
 

@@ -4,7 +4,8 @@ using namespace std;
 
 
 int main() {
-    cout << "\n" << format_duration(1);
+    pair<long long, long long> a = GapInPrimes::gap(10, 300, 400);
+    cout << "\n" << a.first << " " << a.second;
     return 0;
 }
 
